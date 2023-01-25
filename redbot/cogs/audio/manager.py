@@ -365,11 +365,11 @@ class ServerManager:
             raise UnsupportedJavaException(
                 await replace_p_with_prefix(
                     self.cog.bot,
-                    f"The managed Lavalink node requires Java 11 to run{extras};\n"
-                    "Either install version 11 and restart the bot or connect to an external Lavalink node "
+                    f"The managed Lavalink node requires Java 11 or newer to run{extras};\n"
+                    "Either install version 11 or newer and restart the bot or connect to an external Lavalink node "
                     "(https://docs.discord.red/en/stable/install_guides/index.html)\n"
-                    "If you already have Java 11 installed then then you will need to specify the executable path, "
-                    "use '[p]llset java' to set the correct Java 11 executable.",
+                    "If you already have Java 11 or newer installed then then you will need to specify the executable path, "
+                    "use '[p]llset java' to set the correct Java executable.",
                 )  # TODO: Replace with Audio docs when they are out
             )
         java_xms, java_xmx = list((await self._config.java.all()).values())
@@ -408,7 +408,7 @@ class ServerManager:
             self._java_version = None
         else:
             self._java_version = await self._get_java_version()
-            self._java_available = (11, 0) <= self._java_version < (12, 0)
+            self._java_available = self._java_version >= (11, 0)
             self._java_exc = java_exec
         return self._java_available, self._java_version
 
