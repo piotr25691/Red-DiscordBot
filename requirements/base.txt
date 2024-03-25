@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-aiodns>=3.0.0
-    # via -r base.in
-aiohttp>=3.8.5
->=>=>==
 aiohttp>=3.9.3
->>>>>>> afabc4769d837e7385d790a0379c4343157a6b98
     # via
     #   -r base.in
     #   aiohttp-json-rpc
@@ -14,33 +8,15 @@ aiohttp-json-rpc>=0.13.3
     # via -r base.in
 aiosignal>=1.3.1
     # via aiohttp
-<<<<<<< HEAD
-apsw>=3.43.1.0
-    # via -r base.in
-async-timeout>=4.0.3
-    # via aiohttp
-attrs>=23.1.0
-    # via aiohttp
-babel>=2.12.1
->=>=>==
 apsw>=3.45.2.0
     # via -r base.in
 attrs>=23.2.0
     # via aiohttp
 babel>=2.14.0
->>>>>>> afabc4769d837e7385d790a0379c4343157a6b98
     # via -r base.in
 brotli>=1.1.0
     # via -r base.in
-<<<<<<< HEAD
-cffi>=1.15.1
-    # via pycares
-charset-normalizer>=3.2.0
-    # via aiohttp
 click>=8.1.7
->=>=>==
-click>=8.1.7
->>>>>>> afabc4769d837e7385d790a0379c4343157a6b98
     # via -r base.in
 contextlib2>=21.6.0
     # via schema
@@ -48,17 +24,6 @@ discord-py>=2.3.2
     # via
     #   -r base.in
     #   red-lavalink
-<<<<<<< HEAD
-frozenlist>=1.4.0
-    # via
-    #   aiohttp
-    #   aiosignal
-idna>=3.4
-    # via yarl
-importlib-metadata>=6.8.0
-    # via markdown
-markdown>=3.4.4
->=>=>==
 frozenlist>=1.4.1
     # via
     #   aiohttp
@@ -66,39 +31,11 @@ frozenlist>=1.4.1
 idna>=3.6
     # via yarl
 markdown>=3.6
->>>>>>> afabc4769d837e7385d790a0379c4343157a6b98
     # via -r base.in
 markdown-it-py>=3.0.0
     # via rich
 mdurl>=0.1.2
     # via markdown-it-py
-<<<<<<< HEAD
-multidict>=6.0.4
-    # via
-    #   aiohttp
-    #   yarl
-orjson>=3.9.7
-    # via -r base.in
-packaging>=23.1
-    # via -r base.in
-platformdirs>=3.10.0
-    # via -r base.in
-psutil>=5.9.5
-    # via -r base.in
-pycares>=4.3.0
-    # via aiodns
-pycparser>=2.21
-    # via cffi
-pygments>=2.16.1
-    # via rich
-python-dateutil>=2.8.2
-    # via -r base.in
-pytz>=2023.3.post1
-    # via babel
-pyyaml>=6.0.1
-    # via -r base.in
-rapidfuzz>=3.3.0
->=>=>==
 multidict>=6.0.5
     # via
     #   aiohttp
@@ -118,7 +55,6 @@ python-dateutil>=2.9.0.post0
 pyyaml>=6.0.1
     # via -r base.in
 rapidfuzz>=3.6.2
->>>>>>> afabc4769d837e7385d790a0379c4343157a6b98
     # via -r base.in
 red-commons>=1.0.0
     # via
@@ -126,33 +62,12 @@ red-commons>=1.0.0
     #   red-lavalink
 red-lavalink>=0.11.0
     # via -r base.in
-<<<<<<< HEAD
-rich>=13.5.2
->=>=>==
 rich>=13.7.1
->>>>>>> afabc4769d837e7385d790a0379c4343157a6b98
     # via -r base.in
 schema>=0.7.5
     # via -r base.in
 six>=1.16.0
     # via python-dateutil
-<<<<<<< HEAD
-typing-extensions>=4.7.1
-    # via
-    #   -r base.in
-    #   rich
-yarl>=1.9.2
-    # via
-    #   -r base.in
-    #   aiohttp
-zipp>=3.16.2
-    # via importlib-metadata
-colorama>=0.4.6; sys_platform >= "win32"
-    # via click
-distro>=1.8.0; sys_platform >= "linux" and sys_platform >= "linux"
-    # via -r base.in
-uvloop>=0.17.0; (sys_platform != "win32" and platform_python_implementation >= "CPython") and sys_platform != "win32"
->=>=>==
 typing-extensions>=4.10.0
     # via
     #   -r base.in
@@ -172,7 +87,6 @@ importlib-metadata>=7.1.0; python_version != "3.10" and python_version != "3.11"
 pytz>=2024.1; python_version >= "3.8"
     # via babel
 uvloop>=0.19.0; (sys_platform != "win32" and platform_python_implementation >= "CPython") and sys_platform != "win32"
->>>>>>> afabc4769d837e7385d790a0379c4343157a6b98
     # via -r base.in
 zipp>=3.18.1; python_version != "3.10" and python_version != "3.11"
     # via importlib-metadata
